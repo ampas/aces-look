@@ -1,4 +1,4 @@
-# Look Transforms #
+# ACES Look Transforms #
 
 ACES Look Transforms are also known by the acronym "LMTs".
 
