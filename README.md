@@ -1,5 +1,6 @@
-# Look Transforms
-(aka "LMTs")
+# Look Transforms #
+
+ACES Look Transforms are also known by the acronym "LMTs".
 
 The following is a very brief overview of Look Transforms (LMTs). More information can be found in the [ACES Documentatoin](docs.acescentral.com).
 
@@ -57,8 +58,17 @@ Generation of the LMT to Contrast of ACESv1:
                 |--------|           |---------|
 
 
-### Application of LMTs to ACES data
+### Application of LMTs to ACES data ###
 
 Care should be taken when using LMTs as a carelessly designed LMT transform can inadvertently limit the dynamic range of the ACES' data. This is particularly true when using empirical LMTs constructed without considering what happens to data received outside of the space used to construct it. The inherent dynamic range limitation associated with the transformation of ACES' data to a set of display code values should be considered. ACES' data created using an empirical LMT might not contain the additional dynamic range usually associated with ACES data.
 
 ACES' data created using an analytic LMT may not have this limitation. If the operator providing the modification does not limit the dynamic range during the transformation from ACES to ACES', then the LMT may preserve the dynamic range associated with the original unaltered ACES data.
+
+## License ##
+This project is licensed under the terms of the [LICENSE](./LICENSE.md) agreement.
+
+## Contributing ##
+Thank you for your interest in contributing to our project. Before any contributions can be accepted, we require contributors to sign a Contributor License Agreement (CLA) to ensure that the project can freely use your contributions. You can find more details and instructions on how to sign the CLA in the [CONTRIBUTING.md](./CONTRIBUTING.md) file.
+
+## Support ## 
+For support, please visit [ACESCentral.com](https://acescentral.com)
