@@ -1,5 +1,7 @@
 # ACES Look Transforms #
 
+[![CLA assistant](https://cla-assistant.io/readme/badge/ampas/aces-look)](https://cla-assistant.io/ampas/aces-look)
+
 ACES Look Transforms are also known by the acronym "LMTs".
 
 The following is a very brief overview of Look Transforms (LMTs). More information can be found in the [ACES Documentatoin](docs.acescentral.com).
