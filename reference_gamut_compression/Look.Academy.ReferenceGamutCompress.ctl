@@ -14,12 +14,7 @@
 // Note:
 //  It is not recommended to bake the compression into VFX pulls, as it may be beneficial
 //  for compositors to have access to the unmodified image data.
-//
-// Direction:
-//  By default this transform operates in the forward direction, i.e. compressing the
-//  gamut. If instead an inverse operation is needed, i.e. undoing a prior gamut
-//  compression, there is a runtime flag available. In ctlrender, this can be achieved by
-//  appending '-param1 invert 1' after the '-ctl gamut_compress.ctl' string.
+
 //
 // Input and output: ACES2065-1
 //
