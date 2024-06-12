@@ -6,10 +6,15 @@
 //
 
 //
-// Usage:
-//  This transform is intended to be applied to AP0 data, immediately after the IDT, so
-//  that all grading or compositing operations are downstream of the compression, and
-//  therefore work only with positive AP1 values.
+// Usage note: 
+/// The use of the inverse Reference Gamut Compress is not normally
+//  recommended, but is provided for completeness and should be used "at your
+//  own risk". 
+//  While the forward transform should always be used straight after
+//  the IDT, this might not necessarily be the case for an inverse transform.
+//  The place where it is used will vary depending on its intended purpose. and
+//  can be put in whatever position is appropriate to your pipeline.
+
 //
 // Input and output: ACES2065-1
 //
